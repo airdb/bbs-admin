@@ -12,7 +12,7 @@ export function registeredApi (data) {
 // 登陆
 export function loginApi (data) {
   return request({
-    url: '/api/user/login',
+    url: '/v1/user/login',
     method: 'post',
     data
   })
